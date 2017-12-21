@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.workone.activity.ZhanActivity">
+    <LinearLayout
+        android:id="@+id/lt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <RadioGroup
+            android:id="@+id/zhan_rg"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center"
+            >
+            <RadioButton
+                android:id="@+id/zhan_hd"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:drawableTop="@mipmap/ba7"
+                android:text="发活动"
+                android:gravity="center"
+                />
+            <RadioButton
+                android:id="@+id/zhan_jq"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:drawableTop="@mipmap/b9o"
+                android:text="敬请期待..."
+                android:gravity="center"
+                />
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/zhan_black"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@mipmap/b_i"
+        />
+
+</LinearLayout>

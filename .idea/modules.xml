@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WorkOne.iml" filepath="$PROJECT_DIR$/WorkOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/addcar/addcar.iml" filepath="$PROJECT_DIR$/addcar/addcar.iml" />
+      <module fileurl="file://E:\StudioThree\WorkOne\model\app.iml" filepath="E:\StudioThree\WorkOne\model\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cardemo/cardemo.iml" filepath="$PROJECT_DIR$/cardemo/cardemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libzxing/libzxing.iml" filepath="$PROJECT_DIR$/libzxing/libzxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model/model.iml" filepath="$PROJECT_DIR$/model/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/videodemo/videodemo.iml" filepath="$PROJECT_DIR$/videodemo/videodemo.iml" />
+    </modules>
+  </component>
+</project>

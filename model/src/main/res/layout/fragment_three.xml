@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <!--<include layout="@layout/guanli_layout"/>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFB516"
+        >
+        <RadioGroup
+            android:id="@+id/rg_top"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            >
+            <RadioButton
+                android:id="@+id/fb_bm"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="我报名的"
+                android:textColor="#fff"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/tops"
+                />
+            <RadioButton
+                android:id="@+id/fb_fb"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="我发布的"
+                android:textColor="#fff"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/tops"
+                />
+        </RadioGroup>
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            >
+
+            <ImageView
+                android:id="@+id/yanpiao"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/aaq" />
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="15dp"
+                android:text="验票"
+                android:textSize="8sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/gl_topvp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

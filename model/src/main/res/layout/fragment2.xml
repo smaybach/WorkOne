@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+   <LinearLayout
+       android:id="@+id/dddTrue"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:visibility="gone"
+       android:orientation="vertical"
+
+       >
+      <android.support.v7.widget.RecyclerView
+          android:id="@+id/rlv2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+      </android.support.v7.widget.RecyclerView>
+
+   </LinearLayout>
+   <LinearLayout
+       android:id="@+id/wwwFalse"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:visibility="visible"
+       android:orientation="vertical"
+       android:gravity="center"
+
+       >
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="未登录，请立即去登录"
+          android:gravity="center"
+          android:textSize="35sp"
+          />
+
+      <Button
+          android:id="@+id/login"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="登录"
+          />
+   </LinearLayout>
+
+
+
+
+
+</LinearLayout>
